@@ -1,3 +1,34 @@
 li {
     display: inline;
   }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  input {
+    width: 500px;
+    height: 30px;
+    border: 1px solid #D3D3D3;
+    margin: 4px;
+    font-size: 16px;
+    font-family: "Arial Regular", serif;
+    padding: 4px;
+    border-radius: 25px;
+    cursor: text;
+  }
+
+  .logo-search {
+    text-align: -webkit-center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* text-align: -webkit-center; */
+    min-height: 75vh;
+    min-width: 200vh;
+  }
