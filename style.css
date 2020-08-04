@@ -1,15 +1,15 @@
-li {
+  li {
     display: inline;
-  }
+}
 
   .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-  }
+}
 
-  input {
+  .input {
     width: 500px;
     height: 30px;
     border: 1px solid #D3D3D3;
@@ -19,7 +19,7 @@ li {
     padding: 4px;
     border-radius: 25px;
     cursor: text;
-  }
+}
 
   .logo-search {
     text-align: -webkit-center;
@@ -31,7 +31,7 @@ li {
     /* text-align: -webkit-center; */
     min-height: 75vh;
     min-width: 200vh;
-  }
+}
 
   .topnav a {
     text-decoration: none;
